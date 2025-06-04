@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    background-image: url('https://th.bing.com/th/id/R.64c8d59395226afaae65dc9d33b345a3?rik=gPyp52x18WFJTg&riu=http%3a%2f%2fimg.52desk.com%2ftp%2f2131256yXjo.jpg&ehk=0h5b7Goz4c5MLGKdF6Mtn0HaOGSK2ganW2yc9Zrg10g%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+}
+
+nav {
+    background-color: #343a40;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main, section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #007BFF;
+    text-align: center;
+}
+
+h2 {
+    color: #343a40;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    border-radius: 50%;
+    border: 3px solid #007BFF;
+}
